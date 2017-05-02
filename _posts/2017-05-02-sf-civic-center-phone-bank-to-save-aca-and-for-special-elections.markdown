@@ -1,6 +1,8 @@
 ---
 title: SF-Civic Center Phone Bank to Save ACA & for Special Elections
 date: 2017-05-02 19:54:00 Z
+categories:
+- event
 event-start-date: 2017-05-06 13:00:00 Z
 event-end-date: 2017-05-06 18:00:00 Z
 Location: 11 Grove St, San Francisco, CA 94102-4702
