@@ -1,6 +1,8 @@
 ---
 title: 'Rally for Inclusion: 135th Anniversary of Chinese Exclusion'
 date: 2017-05-02 20:05:00 Z
+categories:
+- event
 event-start-date: 2017-05-06 12:00:00 Z
 event-end-date: 2017-05-06 13:30:00 Z
 Location: 733 Kearny Street, San Francisco, California 94108
