@@ -1,6 +1,7 @@
 ---
 title: Feinstein Empty Chair Town Hall
 date: 2017-02-20 03:11:00 Z
+published: false
 categories:
 - event
 tags:
