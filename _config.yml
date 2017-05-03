@@ -2,6 +2,9 @@
 title: Indivisible SF
 timezone: UTC
 collections:
+  events: 
+    title: Events
+    output: true
   members-of-congress:
     title: Members of Congress
     output: true
@@ -10,12 +13,6 @@ collections:
     output: true
   posts:
     title: Posts
-    output: true
-  representatives:
-    title: Representatives
-    output: false
-  successes:
-    title: Successes
     output: true
   uploads:
     title: Uploads
