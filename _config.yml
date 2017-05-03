@@ -2,7 +2,7 @@
 title: Indivisible SF
 timezone: UTC
 collections:
-  events: 
+  events:
     title: Events
     output: true
   members-of-congress:
