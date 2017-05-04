@@ -5,7 +5,6 @@ main-image:
 layout: members-of-congress
 ---
 
-
 Hi.
 
 We have some members of congress.
