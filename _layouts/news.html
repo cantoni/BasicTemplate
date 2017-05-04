@@ -11,7 +11,7 @@ layout: default
     <div class="row">
       <div class="col-sm-7 col-md-6 col-lg-5">
         {{ content }}
-        {% unless site.categories.news.size > 0 %}
+        {% unless site.news.size > 0 %}
           <p>No posts in this category at this time.</p>
         {% endunless %}
         <div class="clearfix spacer"></div>
@@ -23,8 +23,8 @@ layout: default
       <div class="col-sm-8">
         <h5 class="mb-2">News</h5>
 
-            {% assign featured_posts = (site.categories.news|where_exp:"post","post['is featured'] == true") %}
-            {% assign not_featured_posts = (site.categories.news|where_exp:"post","post['is featured'] == false") %}
+            {% assign featured_posts = (site.news|where_exp:"post","post['is featured'] == true") %}
+            {% assign not_featured_posts = (site.news|where_exp:"post","post['is featured'] == false") %}
 
             {% for post in featured_posts %}
               <hr class="mt-0 mb-2">
