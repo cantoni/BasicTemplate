@@ -7,6 +7,7 @@ event-start-date: 2017-05-06 13:00:00 Z
 event-end-date: 2017-05-06 18:00:00 Z
 Location: 11 Grove St, San Francisco, CA 94102-4702
 RSVP-link: https://www.eventbrite.com/e/sf-dogpatch-phone-bank-for-archie-parnell-sc-05-registration-34045559184?aff=efbeventtix
+layout: media-item
 ---
 
 We’re making calls to Save ACA and for upcoming federal special elections around the country. Our success in stopping the repeal of ACA (so far), as well as Jon Ossoff's first-place win in the Georgia primary and James Thompson's better-than-expected finish in Kansas, have shown how effective phone banks can be in helping to motivate Democratic voters and getting them to the polls.
