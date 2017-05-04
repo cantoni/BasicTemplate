@@ -56,7 +56,7 @@ defaults:
     embed-code: 
 - scope:
     path: ''
-    type: becomeAMember
+    type: become-a-member
   values:
     main-image: 
     mailchimp-form-embed: 
@@ -64,8 +64,8 @@ subtitle: We are Indivisible
 email: 
 baseurl: 
 url: 
-twitter_username: 
-facebook_username: 
+twitter_username: indivisiblesf
+facebook_username: IndivisibleSF
 background-image: "/uploads/31773994174_c2e5706218_k.jpg"
 member-count: 100
 footer-title: Spread the word. Help build a movement.

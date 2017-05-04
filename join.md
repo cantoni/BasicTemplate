@@ -2,7 +2,7 @@
 title: Join
 position: 0
 main-image: 
-layout: default
+layout: become-a-member
 ---
 
 Hi this is the join page.
