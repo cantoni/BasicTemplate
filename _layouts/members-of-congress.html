@@ -3,9 +3,7 @@ layout: default
 ---
 
   <div class="container">
-    <div class="clearfix spacer"></div>
     <h1>{{ page.title | escape }}</h1>
-    <div class="clearfix spacer"></div>
     
     <!-- BODY CONTENT -->
     <div class="row">
@@ -15,35 +13,3 @@ layout: default
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-sm-8">
-        <h5>Members of Congress</h5>
-
-hello world
-          {% if site.data.members-of-congress.size > 0 %}
-            we have members in data file
-          {% endif %}
-
-          {% if site.members-of-congress.size > 0 %}
-
-                {% for member-of-congress in site.members-of-congress %}
-                      {{ member-of-congress.title }}
-                      <ul>
-                        {% if member-of-congress.website %}
-                        <li><a href="{{ member-of-congress.website }}">Website</a></li>
-                        {% endif %}
-                        {% for phone-number in member-of-congress.phone-numbers %}
-                        <!-- {% if phone-number.label !="office-name" %} -->
-                        <li>{{ phone-number.label }} OK OK: {{ phone-number }}</li>
-                        <!-- {% endif %} -->
-                        {% endfor %}
-                      </ul>
-                {% endfor %}
-
-          {% endif %}
-
-      </div>
-    </div> <!-- END CONTAINER -->
-
-  <div class="clearfix spacer"></div>
-  <div class="clearfix spacer"></div>

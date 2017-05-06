@@ -17,12 +17,13 @@ layout: default
     <!-- News posts appear below -->
     <div class="row">
       <div class="col-sm-8">
-        {% unless site.news.size > 0 %}
+
+        {% unless site.categories.news.size > 0 %}
         <p>No posts in this category at this time.</p>
         {% endunless %}
 
-        {% assign featured_posts = (site.news|where_exp:"post","post['is featured'] == true") %}
-        {% assign not_featured_posts = (site.news|where_exp:"post","post['is featured'] == false") %}
+        {% assign featured_posts = (site.categories.news|where_exp:"post","post['is featured'] == true") %}
+        {% assign not_featured_posts = (site.categories.news|where_exp:"post","post['is featured'] == false") %}
 
         {% for post in featured_posts %}
         <hr class="mt-0 mb-2">
