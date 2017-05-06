@@ -5,6 +5,7 @@ published: false
 categories:
 - jekyll
 - update
+- news
 main-image: "/uploads/oakland.jpg"
 layout: post
 ---

@@ -28,48 +28,8 @@
     <div class="spacer clearfix"></div>
 
   </div>
-
   <div class="spacer clearfix"></div>
-
 </nav>
-
-{% if site.representatives | size > 0 %}
-
-<!--
-  REPRESENTATIVES
-  NOTE - These values are also listed in post.html
--->
-
-<footer class="site-footer bg-medium">
-
-  <div class="container">
-
-    <div class="spacer clearfix"></div>
-
-    <div class="row">
-      {% for representatives in site.representatives %}
-        <div class="col-sm-6 col-lg-3 representative mt-4">
-            <h5 class="mb-4">{{ representatives.title }}</h5>
-            <ul>
-            {% if representatives.website %}<li><a href="{{ representatives.website }}"><strong><u>Website</u></strong></a></li>{% endif %}
-            {% for phone-numbers in representatives.phone-numbers %}
-	           {% if phone-numbers[0] !="office-name" %}
-              <li>
-                <small>{{ phone-numbers[0] }}</small><br><strong>{{ phone-numbers.[1] }}</strong>
-              </li>
-	           {% endif %}
-            {% endfor %}
-          </ul>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-
-  <div class="spacer clearfix mt-3"></div>
-
-</footer>
-
-{% endif %}
 
 <footer class="site-footer text-white bg-dark">
 
